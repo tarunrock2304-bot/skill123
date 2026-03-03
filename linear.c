@@ -9,5 +9,11 @@ return x;
 int main(){
 int array[]= {2,4,0,1,9};
 int x =1;
-int n= sizeof
+int n= sizeof(array)/sizeof(array[0]);
+int result=search(array,n,x);
 
+if(result==-1)
+printf("element not found");
+else
+printf("element found at %d",i);
+}
