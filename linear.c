@@ -6,4 +6,8 @@ return i;
 return x;
 }
 
+int main(){
+int array[]= {2,4,0,1,9};
+int x =1;
+int n= sizeof
 
